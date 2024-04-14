@@ -18,7 +18,7 @@ body {
 }
 
 .middle {
-    height: 300px;
+    height: 450px;
     
 }
 
@@ -42,7 +42,7 @@ body {
     justify-content: space-around;
     background-color: #1F2937;
     color: white;
-    
+    padding: 50px;
 }
 
 .awesome-text {
@@ -54,9 +54,14 @@ body {
 
 .random-info {
     align-self: center;
-    
+    font-size: 32px;
+    font-weight: 800;
+    color: #1f2937;
     text-align: center;
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    
 }
 
 .small-pics {
@@ -86,13 +91,19 @@ body {
 }
 
 .quote {
-    background-color: grey;
-    text-align: center;
+    background-color: #e5e7eb;
+    text-align: left;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 36px;
+    font-family: "light italic";
+    padding-left: 500px;
+    padding-right: 500px;
 }
+
+
 
 .footer {
     align-self: center;
@@ -104,6 +115,10 @@ body {
     padding: 30px;
 }
 
+.subtext {
+    font-size: 18px;
+    color: #E5e7eb;
+}
 
 
 
@@ -113,7 +128,12 @@ a {
     color: white;
 }
 
-
+h1 {
+    font-size: 48px;
+    font-weight: 990;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -127,8 +147,8 @@ a {
 }
 
 .mountain {
-    height: auto;
-    width: 200px;
+    height: 300px;
+    width: 600px;
     
 }
 
@@ -167,8 +187,9 @@ button {
     width: 125px;
     height: 35px;
     border-radius: 10px;
-    background-color: rgb(4, 134, 185);
+    background-color: #3882F6;
     color: white;
     font-size: large;
     font-weight: bold;
+    
 }
