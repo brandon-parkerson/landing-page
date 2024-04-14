@@ -2,12 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    height: 100%;
+    justify-content: space-evenly;
 }
+
+.upper {
+    background-color: #1F2937;
+}
+
+.middle {
+    height: 300px;
+    
+}
+
 
 .header {
     display: flex;
@@ -37,6 +51,59 @@ body {
     align-self: center;
     gap: 10px;
 }
+
+.random-info {
+    align-self: center;
+    
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.small-pics {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.caption-one {
+    text-align: center;
+    width: 150px;
+}
+
+.caption-two {
+    text-align: center;
+    width: 150px;
+}
+
+.caption-three {
+    text-align: center;
+    width: 150px;
+}
+
+.caption-four {
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    background-color: grey;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    align-self: center;
+    justify-self: flex-end;
+    width: 100%;
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
 
 
 
@@ -71,21 +138,29 @@ img {
 
 .picture-one {
     width: 150px;
+    border: 5px solid rgb(95, 95, 242);
+    border-radius: 20px;
 }
 
 .picture-two {
     width: 150px;
     height: 147px;
+    border: 5px solid rgb(95, 95, 242);
+    border-radius: 20px;
 }
 
 .picture-three {
     width: 150px;
     height: 147px;
+    border: 5px solid rgb(95, 95, 242);
+    border-radius: 20px;
 }
 
 .picture-four {
     width: 150px;
     height: 147px;
+    border: 5px solid rgb(95, 95, 242);
+    border-radius: 20px;
 }
 
 button {
