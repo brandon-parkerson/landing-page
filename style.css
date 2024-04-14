@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 10px;
+    height: 100px;
+}
+
+.links {
+    align-self: center;
+    display: flex;
+    
+}
+
+.awesome {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    
+}
+
+.awesome-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 10px;
+}
+
+
+
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.logo {
+    height: auto;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.mountain {
+    height: auto;
+    width: 200px;
+    
+}
+
+img {
+    height: auto;
+}
+
+.picture-one {
+    width: 150px;
+}
+
+.picture-two {
+    width: 150px;
+    height: 147px;
+}
+
+.picture-three {
+    width: 150px;
+    height: 147px;
+}
+
+.picture-four {
+    width: 150px;
+    height: 147px;
+}
+
+button {
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(4, 134, 185);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
