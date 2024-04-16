@@ -18,7 +18,7 @@ body {
 }
 
 .middle {
-    height: 450px;
+    height: 400px;
     
 }
 
@@ -34,7 +34,9 @@ body {
 .links {
     align-self: center;
     display: flex;
-    
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .awesome {
@@ -50,6 +52,7 @@ body {
     flex-direction: column;
     align-self: center;
     gap: 10px;
+    width: 500px;
 }
 
 .random-info {
@@ -92,17 +95,53 @@ body {
 
 .quote {
     background-color: #e5e7eb;
-    text-align: left;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 36px;
-    font-family: "light italic";
-    padding-left: 500px;
-    padding-right: 500px;
+    
+    
+    padding: 80px;
+    align-items: center;
+    
+   
+}
+.quote-text.author {
+    margin-left: 600px;
+    font-style: initial;
+    font-weight: 900;
+    
 }
 
+.call {
+    background-color: #3882f6;
+    display: flex;
+    padding: 40px;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    border-radius: 10px;
+    margin: 90px;
+    color: #E5e7eb;
+}
+
+.call-main {
+    font-weight: 600;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.call-details {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote-text {
+    display: block;
+    max-width: 790px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
 
 
 .footer {
@@ -118,6 +157,7 @@ body {
 .subtext {
     font-size: 18px;
     color: #E5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -147,8 +187,13 @@ h1 {
 }
 
 .mountain {
-    height: 300px;
-    width: 600px;
+    width: 100%;
+    max-width: 620px;
+    min-width: 155px;
+    height: auto;
+    max-height: 225px;
+    min-height: 51px;
+    object-fit: cover;
     
 }
 
