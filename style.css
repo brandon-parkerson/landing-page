@@ -228,7 +228,7 @@ img {
     border-radius: 20px;
 }
 
-button {
+.top-button {
     width: 125px;
     height: 35px;
     border-radius: 10px;
@@ -236,5 +236,18 @@ button {
     color: white;
     font-size: large;
     font-weight: bold;
+    border: 1px;
+    border-color: #3882F6;
+}
+
+.bottom-button {
+    background-color: #3882F6;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 125px;
+    height: 35px;
+    border-color: white;
+    border-radius: 10px;
     
 }
